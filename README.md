@@ -1,8 +1,8 @@
-# Ejercicio del cronómetro
+# Ejercicio del cronómetro digital
 
-    // ####################################################################################################
-    // Realizar un procedimiento que simule un cronómetro digital, indicando las horas, minutos y segundos.
-    // ####################################################################################################
+    // ##################################################################################################################
+    // Realizar un procedimiento que simule un cronómetro digital, indicando  por pantalla las horas, minutos y segundos.
+    // ##################################################################################################################
     
     // Análisis del ejercicio:
     

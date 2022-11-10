@@ -1,4 +1,4 @@
-# cron-metro
+# Ejercicio del cronómetro
 
     // ####################################################################################################
     // Realizar un procedimiento que simule un cronómetro digital, indicando las horas, minutos y segundos.

@@ -17,16 +17,17 @@
     // que limpia la pantalla, es decir que resetea los valores del cronómetro (00:00:00), llamada Limpiar Pantalla.
     // NOTA2: Existe una función propia del sistema operativo (no la tenemos que hacer nosotros) 
     // que pausa el proceso 1 segundo llamado Esperar 1 Segundo.
-    // ################################################################################
+    
+    // ##############################################################################################################
 
     Proceso Cronometro
-      Definir hora,minuto,Segundo Como Entero
+      Definir hora,minuto,segundo Como Entero
       Para hora<-0 Hasta 23 Hacer // Bucle horas
         Para minuto<-0 Hasta 59 Hacer // Bucle minutos
-          Para Segundo<-0 Hasta 59 Hacer // Bucle segundos
+          Para segundo<-0 Hasta 59 Hacer // Bucle segundos
             Borrar Pantalla
             // escribe hora:minutos:segundos (actualizandose a medida que va pasando cada segundo)
-            Escribir hora,':',minuto,':',Segundo
+            Escribir hora,':',minuto,':',segundo
             Esperar 1 Segundo
           FinPara
         FinPara

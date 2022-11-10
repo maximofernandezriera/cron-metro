@@ -14,7 +14,7 @@
     // Variables: hora,minuto,segundo (entero)
     
     // NOTA1: Existe una función propia del sistema operativo (no la tenemos que hacer nosotros) 
-    // que limpia la pantalla llamada Limpiar Pantalla.
+    // que limpia la pantalla, es decir que resetea los valores del cronómetro (00:00:00), llamada Limpiar Pantalla.
     // NOTA2: Existe una función propia del sistema operativo (no la tenemos que hacer nosotros) 
     // que pausa el proceso 1 segundo llamado Esperar 1 Segundo.
     // ################################################################################
